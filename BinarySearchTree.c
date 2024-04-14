@@ -16,7 +16,7 @@ typedef struct binary_tree_node
 } TreeNode, *TreeLink;
 
 #define QUEUE_ARRAY_USER_DATATYPE TreeLink
-#include "queue_array.h"
+#include "queue_link.h"
 
 TreeLink Create_Tree_Node(int data);              // 创建一个新的二叉树节点
 TreeLink bst_insert(TreeLink root, TreeLink new); // 按BST规定插入新节点
